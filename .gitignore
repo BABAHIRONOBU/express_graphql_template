@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+package-lock.json
+/server/public
+/server/dist
+uploads/
+dist
+
+# local env files
+.env
+.env.*
+
+# log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+
+# Elastic Beanstalk Files
+.elasticbeanstalk
+.ebextensions
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

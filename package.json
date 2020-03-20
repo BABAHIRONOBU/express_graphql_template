@@ -1,0 +1,24 @@
+{
+  "name": "my_first_express_graphql",
+  "version": "1.0.0",
+  "description": "graphql을 express와 함께 사용해봅니다.",
+  "main": "./dist/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BABA HIRONOBU",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  }
+}
