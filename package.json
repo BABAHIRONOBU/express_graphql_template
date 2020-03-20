@@ -1,7 +1,7 @@
 {
-  "name": "my_first_express_graphql",
+  "name": "todo_graphql_ver",
   "version": "1.0.0",
-  "description": "graphql을 express와 함께 사용해봅니다.",
+  "description": "graphql을 이용해 todo앱을 만들었습니다.",
   "main": "./dist/server.js",
   "scripts": {
     "start": "ts-node src/server.ts",
