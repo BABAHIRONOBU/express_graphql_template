@@ -23,7 +23,7 @@ $ yarn start
 
 
 ## GraphiQL에서 테스트
-[/graphql](localhost:3000/graphql) 에 접속하여 다음의 쿼리를 실행해보세요.
+[/graphql](http:localhost:3000/graphql)에 접속하여 다음의 쿼리를 실행해보세요.
 ```graphql
 query getOne{
   todo(id: 1) {
