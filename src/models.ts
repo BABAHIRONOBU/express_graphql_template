@@ -4,12 +4,17 @@ interface ITodo {
   priority: number | null
 }
 
+interface ITodoCreation {
+  description: string;
+  priority: number | null;
+}
+
 export class Todo implements ITodo {
   public id!: number;
   public description!: string;
   public priority!: number | null
 
-  static fakeData: ITodo[] = [
+  private static fakeData: ITodo[] = [
     {
       id: 1,
       description: '공식문서를 메인으로 graphql 공부',
@@ -45,7 +50,7 @@ export class Todo implements ITodo {
     return todo;
   }
 
-  public static create({ description, priority }: { description: string, priority: number | null }) {
+  public static create({ description, priority }: ITodoCreation) {
     const newTodo: ITodo = {
       id: Todo.fakeData[Todo.fakeData.length-1].id + 1,
       description,
